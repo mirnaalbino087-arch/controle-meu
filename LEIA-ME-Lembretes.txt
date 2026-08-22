@@ -1,0 +1,18 @@
+NOVA VERSÃO - PAINEL DE EMPRÉSTIMOS
+
+Recursos adicionados:
+- Alertas no Dashboard para parcelas atrasadas, vencendo hoje, amanhã ou em até 3 dias.
+- Botão "Cobrar no WhatsApp" no Dashboard e na lista de empréstimos.
+- Mensagem de cobrança preenchida automaticamente com nome, saldo e vencimento.
+- O botão abre o WhatsApp com a mensagem pronta para revisão e envio.
+
+IMPORTANTE:
+- O número do cliente precisa estar cadastrado no campo WhatsApp, de preferência com DDD.
+- O painel não envia mensagens sozinho nem em segundo plano. O WhatsApp abre com a mensagem pronta e você confirma o envio.
+- Os dados continuam salvos no navegador/localStorage, como na versão original.
+- Para envio automático sem intervenção, seria necessário integrar uma API oficial de WhatsApp e um servidor.
+
+LOGIN ORIGINAL:
+Usuário: admin
+Senha: 123456
+Altere a autenticação antes de uso em produção.
